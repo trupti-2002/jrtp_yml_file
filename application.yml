@@ -16,3 +16,13 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
+datasource:
+    url: jdbc:mysql://localhost:3306/jrtpprojo
+    username: KANHA
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update  
+    show-sql: true
